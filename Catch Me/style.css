@@ -1,0 +1,27 @@
+body{
+    background: rgb(20, 31, 189);
+}
+
+.catch-me{
+    background: red;
+    border-radius: 8px;
+    max-width: max-content;
+    font-weight:bolder;
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transition: 250ms ease;
+}
+
+.catch-me:hover{
+    transform:scale(1.1);
+}
+
+.catch-me p{
+    color:white;
+    font-family:poppins;
+    font-size:18px;
+    margin:0;
+    padding:24px 32px;
+}

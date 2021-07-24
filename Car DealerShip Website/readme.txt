@@ -1,0 +1,1 @@
+the login page is made with html,css and with java only while the main website is made with bootstrap, so use chrome for better results. 

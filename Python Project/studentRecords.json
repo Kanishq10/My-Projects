@@ -1,0 +1,38 @@
+{
+  "1001": {
+    "session": "2020-21",
+    "first_name": "Rahul",
+    "last_name": "Mishra",
+    "Year": "2",
+    "section": "B",
+    "gender": "Male",
+    "father": "Rajesh Kumar",
+    "mother": "Ranjana Kumari",
+    "mobile": "981653456",
+    "address": "Delhi"
+  },
+  "1002": {
+    "session": "2020-21",
+    "first_name": "Mani",
+    "last_name": "Prabhakar",
+    "Year": "1",
+    "section": "A",
+    "gender": "Male",
+    "father": "Pankaj",
+    "mother": "Komal",
+    "mobile": "9856745768",
+    "address": "Mubai"
+  },
+  "1003": {
+    "session": "2020-21",
+    "first_name": "Sunil",
+    "last_name": "Saini",
+    "Year": "1",
+    "section": "B",
+    "gender": "Male",
+    "father": "Gaurav Kumar",
+    "mother": "Nisha Kumari",
+    "mobile": "3456394756",
+    "address": "Lucknow"
+  }
+}
