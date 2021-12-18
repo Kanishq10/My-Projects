@@ -25,7 +25,7 @@ function unFollow(){
     robot.mouseClick();
 
     robot.setMouseDelay(2000);     //for reclick to get focus on unfollow section
-    robot.moveMouseSmooth(742, 467);
+    robot.moveMouseSmooth(572, 522);
     robot.mouseClick();
 
     robot.keyTap("down");       //for clicking down arrow key,for scrolling
