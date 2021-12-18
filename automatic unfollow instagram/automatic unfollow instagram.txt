@@ -1,0 +1,27 @@
+//this is a simple js to unfollow accounts,this only clicks the unfollow button repeatedly,paste it on browser console
+function getRandomInt(min, max) {    //random function
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
+
+var myVar = setInterval(func, getRandomInt(5000,8000));       //we use random function to delay in click so instagram cannot detect as a bot 
+
+
+var count=0; var idx=1;
+function func(){
+        count++;
+        document.querySelectorAll(".sqdOP")[idx].click();     //to click unfollow button on the basis of class
+        idx++;
+        setTimeout(func1,getRandomInt(1000,3000));
+        if(count==5){       //to stop the script after count times
+              clearInterval(myVar);    
+        }
+}
+
+function func1(){
+        document.querySelectorAll(".aOOlW ")[0].click();      //for confirm button click on the basis of class
+}
+
+
+
