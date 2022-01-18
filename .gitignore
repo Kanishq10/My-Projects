@@ -42,8 +42,6 @@ hs_err_pid*
 #python
 .ipynb_checkpoints
 *.pyc
-Python docs/textaudio.mp3
-New python Docs/QR.jpg
 
 #node
 
